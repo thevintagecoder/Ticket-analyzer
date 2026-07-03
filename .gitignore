@@ -1,0 +1,37 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Testing and cache files
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# VS Code and IDE files
+.vscode/
+.idea/
+
+# React and Node files
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+
+# macOS-generated files
+.DS_Store
+
+# Local database and model cache
+postgres_data/
+hf-cache/
