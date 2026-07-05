@@ -14,16 +14,19 @@ ticket history.
 
 ## Current progress
 
+## Current progress
+
 - [x] Project structure created
 - [x] Python virtual environment created
 - [x] FastAPI backend created
 - [x] Health-check endpoint created
-- [ ] PostgreSQL connection
-- [ ] Ticket database model
+- [x] PostgreSQL container created
+- [x] FastAPI connected to PostgreSQL
+- [x] Ticket database table created
 - [ ] Ticket API endpoints
 - [ ] Sentiment-analysis integration
 - [ ] React frontend
-- [ ] Docker setup
+- [ ] Complete Docker setup
 - [ ] Cloud deployment
 
 ## Run the current backend
