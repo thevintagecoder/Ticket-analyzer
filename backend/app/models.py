@@ -5,7 +5,7 @@ from sqlalchemy.orm import Mapped, mapped_column
 
 from .database import Base
 
-
+#defines the database structure 
 class Ticket(Base):
     """
     Represents one support ticket stored in PostgreSQL.
